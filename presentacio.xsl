@@ -4,11 +4,12 @@
     <xsl:template match="/">
         <html>
         <body>
-        <h2>Províncies de la Comunitat Valenciana</h2>
+        <h2>Províncies de la Comunitat Valenciana</h2><hr>
         <xsl:for-each select="Comunitat_Valenciana/província">
             <p>Nom: <xsl:value-of select="nom"/></p>
             <p>Superfície: <xsl:value-of select="superfície"/></p>
             <p>Població: <xsl:value-of select="població"/></p>
+            -------------------------------------------------<br>
         </xsl:for-each>
         </body>
         </html>
