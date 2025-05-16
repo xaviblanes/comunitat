@@ -4,7 +4,7 @@
     <xsl:template match="/">
       <html>
         <body>
-        <h2>Prov  ncies de la Comunitat Valenciana</h2>
+        <h2>Províncies de la Comunitat Valenciana</h2>
         <xsl:for-each select="Comunitat_Valenciana/província">
         <hr/>
             <p>Nom: <xsl:value-of select="nom"/></p>
